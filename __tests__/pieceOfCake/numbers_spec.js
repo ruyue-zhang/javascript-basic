@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-globals */
 describe('for numbers', () => {
   it('should use real number calculation rather than integer in some languages', () => {
     const dividingResult = 3 / 4;
@@ -15,7 +16,7 @@ describe('for numbers', () => {
 
     // <--start
     // Please write an expression determine if `notNumber` is NaN.
-    const isNan = undefined;
+    const isNan = isNaN(notNumber);
     // --end->
 
     expect(isNan).toBeTruthy();
