@@ -15,6 +15,7 @@ describe('for array', () => {
 
     // <--start
     // Please write one line of code to push some elements in the array to pass the test
+    array.push(6, 7, 8);
 
     // --end->
 
