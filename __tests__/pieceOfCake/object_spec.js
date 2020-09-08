@@ -266,7 +266,7 @@ describe('for object', () => {
 
     // <--start
     // Please write down the correct value. You should write the final result directly.
-    const expectedKillerRabbitSpeak = undefined;
+    const expectedKillerRabbitSpeak = 'Hi';
     // --end->
 
     expect(killerRabbit.speak()).toEqual(expectedKillerRabbitSpeak);
@@ -276,8 +276,8 @@ describe('for object', () => {
 
     // <--start
     // Please write down the correct value. You should write the final result directly.
-    const expectedOverrideKillerRabbitSpeak = undefined;
-    const expectedRabbitPrototypeSpeak = undefined;
+    const expectedOverrideKillerRabbitSpeak = '@_@';
+    const expectedRabbitPrototypeSpeak = 'Hi';
     // --end->
 
     expect(killerRabbit.speak()).toEqual(expectedOverrideKillerRabbitSpeak);
